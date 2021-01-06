@@ -4,9 +4,18 @@ body{
     
 }
 .menubar{
-    margin: 37px 142px 20px 979px;
-    width: 319px;
+    margin: 37px 0px 20px 979px;
+    width: 350px;
     height: 24px;
+}
+.menubar li{
+    display:inline;
+    padding: 10px 10px;
+}
+.menubar li a{
+    text-decoration: none;
+    color: #333975 ;
+    font-weight: 600;
 }
 
 h1{
@@ -78,7 +87,8 @@ h2{
 .projects-part p{
     padding:2px 15px;
 }
-section{height: 500px;
+section{
+    height: 500px;
     padding-bottom: 150px;
 }
 .newpart{
@@ -146,7 +156,7 @@ h3{
     float: left;
     height: 400px;
     width: 450px;
-    margin: 0px 0px 50px 140px;
+    margin: 0px 0px 50px 200px;
 }
 .inside-testimonial img{
     height: 100px;
@@ -165,6 +175,3 @@ h3{
     height: 500px;
     padding-bottom: 0;
 }
-
-
-
